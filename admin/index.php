@@ -51,7 +51,7 @@ spl_autoload_register();
         ?>
         <!-- end hinh dong -->
         <!-- phan thân -->
-        <div class="container">
+        <div class="container-fluid">
         <div class="row">
         <?php
              //load controler
