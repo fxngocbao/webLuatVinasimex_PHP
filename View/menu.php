@@ -359,15 +359,16 @@
   </div>
 </section>
     <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin-left: 90px; margin-right: 90px;">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
       <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./Content/img/Investment-to-Vietnam2.jpg" alt="Los Angeles" style="width: 100%; height: 450px;">
-          <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>We had such a great time in LA!</p>
-          </div>
+          <img src="Content/img/slide1.jpg" alt="Los Angeles" class="img-slide1" style="width: 100%; height: 450px; filter: brightness(60%);">
+          <div class="home-div1-elm home-div3-css bz-title fadeInUp animated" data-animation-in="fadeInUp"
+                        data-delay-in="0.3" style="opacity: 1; animation-delay: 0.3s;">
+                        <div class="type">Tư vấn đầu tư</div>
+                        <span class="sub">INVESTMENT CONSULTANCY</span>
+                    </div>
         </div>
         <div class="carousel-item">
           <img src="./Content/img/So-Huu-Tri-Tue.jpg" alt="Chicago" style="width: 100%; height: 450px;">

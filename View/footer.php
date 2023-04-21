@@ -1,4 +1,4 @@
-<footer style=" margin-left: 90px; margin-right: 90px;">
+<footer>
     <div class="row">
         <div class="col-sm-3 bg-light" style="text-align: center; ">
             <a class="navbar-brand" href="#">
