@@ -13,35 +13,27 @@ spl_autoload_register();
 
 <head>
 <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Content/images/logocopy.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <!-- Site Icons -->
     <link rel="shortcut icon" href="Content/images/logopl.jpg" type="image/x-icon">
-    <!-- <link rel="apple-touch-icon" href="Content/images/apple-touch-icon.png"> -->
-    <link rel="stylesheet" type="text/css" href="Content/css/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="Content/css/text.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="Content/css/grid.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="Content/css/layout.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="Content/css/nav.css" media="screen" />
-    <link href="Content/css/table/demo_page.css" rel="stylesheet" type="text/css" />
-    <!-- BEGIN: load jquery -->
-    <script src="Content/js/jquery-1.6.4.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="Content/js/jquery-ui/jquery.ui.core.min.js"></script>
-    <script src="Content/js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
-    <script src="Content/js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
-    <script src="Content/js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
-    <script src="Content/js/jquery-ui/jquery.effects.slide.min.js" type="text/javascript"></script>
-    <script src="Content/js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
-    <script src="Content/js/jquery-ui/jquery.ui.sortable.min.js" type="text/javascript"></script>
-    <script src="Content/js/table/jquery.dataTables.min.js" type="text/javascript"></script>
-    <!-- END: load jquery -->
-    <script type="text/javascript" src="Content/js/table/table.js"></script>
-    <script src="Content/js/setup.js" type="text/javascript"></script>
-	 <script type="text/javascript">
-        $(document).ready(function () {
-            setupLeftMenu();
-		    setSidebarHeight();
-        });
-    </script>
+    <link rel="apple-touch-icon" href="Content/images/logocopy.png">
+ <!-- link đăng nhập -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- link đăng nhập -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- end -->
+   
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="Content/CSS/admin.css" />
 
     <title>BLUSZA ADMIN</title>
     
@@ -54,7 +46,6 @@ spl_autoload_register();
         if(isset($_SESSION['admin']))
         {
             include "View/header.php";
-            include "View/sidebar.php";
         }
             
         ?>
