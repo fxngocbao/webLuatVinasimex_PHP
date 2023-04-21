@@ -52,7 +52,7 @@
         </div>
         <!-- hiên thị footer -->
         <?php
-        include "View/footer.php";
+            include "View/footer.php";
         ?>
     </div>
 </body>
