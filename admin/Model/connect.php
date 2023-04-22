@@ -33,6 +33,5 @@ class connect
 		// echo $results;
 		return($results);
 	}
-	
 }
 ?>

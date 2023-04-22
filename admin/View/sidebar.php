@@ -1,7 +1,12 @@
-<div class="grid_2"style="margin:0;">
+<style>
+    a{
+        text-decoration:none;
+    }
+</style>
+<div class="grid_2">
     <div class="box sidemenu">
         <div class="block" id="section-menu">
-            <ul class="section menu">
+            <ul class="section menu" style="margin-right:10px;">
                 <li>
                     <a class="menuitem">DANH MỤC SP</a>
                     <ul class="submenu">
