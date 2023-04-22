@@ -12,7 +12,8 @@
         public function getlevelID($id){
             $db=new connect();
             $sql="select * from level where level_id=$id";
-            $db->getInstance($sql);
+            $result=$db->getInstance($sql);
+            return $result;
         }
         public function insertlevel($level_name){
             $db=new connect();

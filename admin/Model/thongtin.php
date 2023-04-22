@@ -1,5 +1,5 @@
 <?php
-    class position{
+    class thongtin{
         public function __constructs(){
 
         }
