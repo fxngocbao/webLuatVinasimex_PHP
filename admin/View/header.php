@@ -20,15 +20,15 @@
                         <!-- Quản trị Doanh Mục -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                Quản Trị Doanh Mục
+                                Quản Trị CHỨC VỤ
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="index.php?action=loai">Loại Sản Phẩm</a>
-                                <a class="dropdown-item" href="index.php?action=hanghoa">Sản Phẩm</a>
-                                <a class="dropdown-item" href="#">Loại menu</a>
+                                <a class="dropdown-item" href="index.php?action=level">Xem Chức Vụ</a>
+                                <a class="dropdown-item" href="index.php?action=hanghoa">Thêm Chức Vụ</a>
+                                <!-- <a class="dropdown-item" href="#">Loại menu</a>
                                 <a class="dropdown-item" href="index.php?action=hoadon">Quản lý hóa đơn</a>
                                 <a class="dropdown-item" href="index.php?action=feedback">Feedback</a>
-                                <a class="dropdown-item" href="index.php?action=QLUser">Quản lý khách hàng</a>
+                                <a class="dropdown-item" href="index.php?action=QLUser">Quản lý khách hàng</a> -->
                             </div>
                         </li>
                         <!-- Thống kê -->

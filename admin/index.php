@@ -39,7 +39,12 @@ spl_autoload_register();
     
 
 </head>
-
+<style>
+    *{
+        padding: 0;
+        margin:0;
+    }
+</style>
 <body>
 <!-- Thanh header tao menu -->
 <?php
@@ -51,7 +56,7 @@ spl_autoload_register();
         ?>
         <!-- end hinh dong -->
         <!-- phan thân -->
-        <div class="container-fluid">
+        <div class="container">
         <div class="row">
         <?php
              //load controler
