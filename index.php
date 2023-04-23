@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <!-- end link đăng nhập -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="Content/CSS/header.css" />
     <link rel="stylesheet" type="text/css" href="Content/CSS/menu.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <script type="text/javascript" src="Content/JS/menu.js"></script>
     <title>SanPham</title>
 </head>
 <style>
@@ -43,12 +45,8 @@
                 <!-- hien thi noi dung đây -->
                 <?php
                 $ctrl = "home";
-                if (isset($_GET["action"])) {
+                if (isset($_GET["action"])) 
                     $ctrl = $_GET["action"];
-                }
-                if (isset($_POST["act"])) {
-                    $ctrl = $_GET["act"];
-                }
                 include "Controller/" . $ctrl . ".php";
                 ?>
             </div>
@@ -58,6 +56,7 @@
             include "View/footer.php";
         ?>
     </div>
+   
 </body>
 
 </html>

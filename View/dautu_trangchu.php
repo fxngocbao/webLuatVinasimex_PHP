@@ -1,4 +1,9 @@
-<div class="gioithieu" style="background: rgb(251, 255, 251); margin-left: 90px; margin-right: 90px;">
+<style>
+  .gioithieu ul{
+    text-align:left;
+  }
+</style>
+<div class="gioithieu" style="background: rgb(251, 255, 251);text-align:center;">
       <h3 style="color: green; text-align: center;">TƯ VẤN ĐẦU TƯ</h3>
       <p style="font-size: 15px;">
         Kinh tế Việt Nam ngày càng hội nhập sâu rộng trên thị trường quốc tế. Chính vì vậy lĩnh vực đầu tư là một trong những thành phần cơ cấu
@@ -10,7 +15,7 @@
         đầu tư chuyên sâu trong suốt hơn một thập kỉ qua, những dịch vụ đầu tư Luật Việt An đang cung cấp cho nhà đầu tư:
         <br>
       </p>
-      <h3 style="color: orange; text-align: center; font-family:Arial, Helvetica, sans-serif; text-decoration: underline;">TƯ VẤN ĐẦU TƯ</h3>
+      <h3 style="color: orange; font-family:Arial, Helvetica, sans-serif; text-decoration: underline;">TƯ VẤN ĐẦU TƯ</h3>
       <ul style="font-size: 15px;">
         <li>
           Đầu tư thành lập doanh nghiệp có vốn đầu tư nước ngoài bao gồm: Doanh nghiệp 100% vốn nước ngoài hoặc doanh nghiệp có một phần vốn của

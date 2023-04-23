@@ -1,12 +1,12 @@
-
 <style>
-  div.title{
-    margin-top: 20px;
+  th{
+    text-align:center;
   }
 </style>
-<div  class="col-md-4 col-md-offset-4 title"><h3 ><b>DANH SÁCH CHỨC VỤ</b></h3></div>
-<div class="row col-12 title">
-<a  href="index.php?action=level&act=addlevel"><h4>THÊM CHỨC VỤ</h4></a>
+</br>
+<div  class="col-md-4 col-md-offset-4"><h3 ><b>DANH SÁCH CHỨC VỤ</b></h3></div>
+<div class="row col-12">
+<a href="index.php?action=level&act=addlevel"><h4>THÊM CHỨC VỤ</h4></a>
 </div>
 <!-- <div class="row col-12">
 <a href="index.php?action=hoadon"><h4>Xem hóa đơn</h4></a><br/>
@@ -15,13 +15,12 @@
 <a href="index.php?action=feedback"><h4>Feedback Khách hàng</h4></a><br/>
 </div> -->
 <div class="row">
-<table class="table"border="1px solid black">
+<table class="table"  border="1px solid black">
     <thead >
       <tr class="table-primary" align="center">
         <th>Mã chức vụ</th>
         <th>Tên chức vụ</th>
-        <th>Cập Nhật</th>
-        <th>Xóa</th>
+        <th colspan="2">Actions</th>
       </tr>
     </thead>
     <tbody>

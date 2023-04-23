@@ -2,7 +2,7 @@
     function uploadimage()
     {
         //B1: tạo ra đường dẫn chứa hình
-        $target_dir="../THUCTAP/webLuatVinasimex_PHP-main/admin/Content/images/";
+        $target_dir="../admin/Content/images/";
         //b2: lấy tên hình về
         // Content/imagetourdien/giaycongso.jpg
         $target_file=$target_dir.basename($_FILES['image']['name']);

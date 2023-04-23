@@ -36,7 +36,7 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="index.php?action=level">Quản Trị Chức Vụ</a>
-                                <a class="dropdown-item" href="index.php?action=level">Quản Trị Thành Viên</a>
+                                <a class="dropdown-item" href="index.php?action=information">Quản Trị Thành Viên</a>
                             </div>
                         </li>
                         <!-- Thống kê -->

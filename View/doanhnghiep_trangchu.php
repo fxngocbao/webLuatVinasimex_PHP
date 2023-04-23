@@ -1,4 +1,9 @@
-<div class="gioithieu" style="background: rgb(251, 255, 251); margin-left: 90px; margin-right: 90px;">
+<style>
+  h3{
+    font-weight:400;
+  }
+</style>
+<div class="gioithieu" style="background: rgb(251, 255, 251);">
       <h3 style="color: green; text-align: center;">TƯ VẤN PHÁP LUẬT DOANH NGHIỆP</h3>
     <p>
         Một doanh nghiêp muốn tồn tại và phát triển tốt thì phải dựa trên các quy phạm pháp luật để tạo dựng nên một cơ sở nền 
