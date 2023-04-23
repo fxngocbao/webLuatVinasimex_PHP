@@ -1,3 +1,8 @@
+<style>
+  div.title{
+    margin-top:30px;
+  }
+</style>
 <?php
   if(isset($_GET['act'])){
     if($_GET['act']=='editlevel'){
@@ -11,11 +16,10 @@
 <!--hiển thị tiêu đề-->
 <?php
 if($ac==1){
-  echo '<div class="col-md-4 col-md-offset-4"><h3><b>UPDATE LEVEL</b></h3></div>';
+  echo '<div class="col-md-4 col-md-offset-4 title"><h3><b>CẬP NHẬT CHỨC VỤ</b></h3></div>';
 }
 if($ac==2){
-  echo '<div class="col-md-4 col-md-offset-4"><h3><b>ADD LEVEL</b></h3></div>';
-
+  echo '<div class="col-md-4 col-md-offset-4 title"><h3><b>THÊM CHỨC VỤ</b></h3></div>';
 }
 ?>
 <div class="row col-md-4 col-md-offset-4" >

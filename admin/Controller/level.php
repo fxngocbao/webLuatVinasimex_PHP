@@ -14,11 +14,11 @@
             $level_name=$_POST['level_name'];
             $lv=new level();
             $checklevel=$lv->insertlevel($level_name);
-            if($checklevel!==false){
-                echo '<script>alert ("Thêm chức vụ thành công !!")</script>';
+            if($checklevel!=false){
+                echo '<script>alert ("Thêm chức vụ  thành công !!")</script>';
                 include "./View/level.php";
             }else{
-                echo '<script>alert ("Thêm chức vụ không thành công !!")</script>';
+                echo '<script>alert ("Thêm chức vụ không  thành công !!")</script>';
                 include "./View/add&editlevel.php";
             }
             
@@ -40,18 +40,15 @@
                     include "./View/add&editlevel.php";
                 }
             }
+            break;
         case "deletelevel":
             if(isset($_GET['id'])){
                 $id=$_GET['id'];
                 $lv=new level();
                 $lv->deletelevel($id);
-                if($lv){
-                    echo '<script>alert ("Xoá chức vụ thành công !!")</script>';
-                    include "./View/level.php";
-                }else{
-                    echo '<script>alert ("Xoá chức vụ không thành công !!")</script>';
-                    include "./View/level.php";
-                }
+                echo '<script>alert ("Xóa thành công!!")</script>';
+                include './View/level.php';
             }
+            break;
     }
 ?>
