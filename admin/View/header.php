@@ -1,4 +1,16 @@
-
+<style>
+    .mn2{
+        position: relative;
+    }
+    .submn2{
+        top:  0;
+        left: 100%;
+        margin-top: -1px;
+    }
+    .fa-chevron-right{
+        font-size:10px;
+    }
+</style>
 <header class="row no-gutters">
     <!-- nav san pham -->
     <section class="col-12" style="height:40px;">
@@ -9,26 +21,22 @@
                 <nav class="navbar navbar-expand-sm bg-light navbar-light">
                     <!-- Brand -->
                     <img style="margin-left:10px;" width="100" height="50" src="Content/images/logocopy.png" alt="">
-                    <a class="navbar-brand" href="index.php?action=hanghoa">ADMIN</a>
+                    <a class="navbar-brand" href="index.php?action=home">ADMIN</a>
 
                     <!-- Links -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?action=hanghoa">Trang Chủ</a>
+                            <a class="nav-link" href="index.php?action=home">Trang Chủ</a>
                         </li>
                         
                         <!-- Quản trị Doanh Mục -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                Quản Trị CHỨC VỤ
+                                Quản Lý Thông Tin
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="index.php?action=level">Xem Chức Vụ</a>
-                                <a class="dropdown-item" href="index.php?action=hanghoa">Thêm Chức Vụ</a>
-                                <!-- <a class="dropdown-item" href="#">Loại menu</a>
-                                <a class="dropdown-item" href="index.php?action=hoadon">Quản lý hóa đơn</a>
-                                <a class="dropdown-item" href="index.php?action=feedback">Feedback</a>
-                                <a class="dropdown-item" href="index.php?action=QLUser">Quản lý khách hàng</a> -->
+                                <a class="dropdown-item" href="index.php?action=level">Quản Trị Chức Vụ</a>
+                                <a class="dropdown-item" href="index.php?action=level">Quản Trị Thành Viên</a>
                             </div>
                         </li>
                         <!-- Thống kê -->
