@@ -2,6 +2,7 @@
   .click{
     color:#ff9800;
   }
+  
 </style>
 <section class="head-menu  hide-col" style="">
   <div class="menu-container-row head-col header-content">
@@ -363,5 +364,4 @@
     </div>
   </div>
 </section>
-
 

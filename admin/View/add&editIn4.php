@@ -34,6 +34,7 @@ if($ac==2){
       $level_name=$result['level_name'];
       $in4_phone=$result['in4_phone'];
       $in4_email=$result['in4_email'];
+      $skype=$result['skype'];
       $image=$result['image'];
     }
   ?>
@@ -80,6 +81,10 @@ if($ac==2){
 <tr>
   <td>Email</td>
   <td><input type="text" class="form-control" name="in4_email" value="<?php if(isset($in4_email)) echo $in4_email;?>"  maxlength="100px"></td>
+</tr>
+<tr>
+  <td>Skype</td>
+  <td><input type="text" class="form-control" name="skype" value="<?php if(isset($skype)) echo $skype;?>"  maxlength="100px"></td>
 </tr>
 <tr>
   <td>Hình</td>

@@ -1,9 +1,9 @@
-<style>
+<!-- <style>
     .marquee {
-  height: 25px;
+  height: 100px;
   width: 100%;
   margin: 100px;
-  /* overflow: hidden; */
+  /* overflow:hidden; */
   position: relative;
 }
 
@@ -36,7 +36,7 @@
     <img width="100" height="50" src="Content/images/logocopy.png" alt=""> &nbsp; Welcome to Công ty TNHH BLUSZA &nbsp; <img width="100" height="50" src="Content/images/logocopy.png" alt="">
     </span>
   </div>
-</div>
+</div> -->
 <footer class="site-footer">
         <div class="container">
             <div class="row">

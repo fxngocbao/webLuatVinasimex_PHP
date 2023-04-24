@@ -7,6 +7,9 @@
         case 'information':
             include "./View/information.php";
             break;
+        case 'information_detail':
+            include "./View/information_detail.php";
+            break;
         case 'addIn4':
             include "./View/add&editIn4.php";
             break;
@@ -15,9 +18,10 @@
             $level_name=$_POST['level_name'];
             $in4_phone=$_POST['in4_phone'];
             $in4_email=$_POST['in4_email'];
+            $skype=$_POST['skype'];
             $image=$_FILES['image']['name'];
             $in4=new information();
-            $checkinsert=$in4->insertIn4($in4_name,$level_name,$in4_phone,$in4_email,$image);
+            $checkinsert=$in4->insertIn4($in4_name,$level_name,$in4_phone,$in4_email,$skype,$image);
             if($checkinsert!==false){
                 uploadimage();
                 echo '<script>alert ("Thêm thành công!!")</script>';

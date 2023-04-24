@@ -15,10 +15,10 @@
             $result=$db->getInstance($sql);
             return $result;
         }
-        public function insertIn4($in4_name,$level_name,$in4_phone,$in4_email,$image){
+        public function insertIn4($in4_name,$level_name,$in4_phone,$in4_email,$skype,$image){
             $db=new connect();
-            $sql="insert into information(in4_id,in4_name,level_name,in4_phone,in4_email,image)
-                values (NULL,'$in4_name','$level_name',$in4_phone,'$in4_email','$image')";
+            $sql="insert into information(in4_id,in4_name,level_name,in4_phone,in4_email,skype,image)
+                values (NULL,'$in4_name','$level_name','$in4_phone','$in4_email','$skype','$image')";
             $result=$db->exec($sql);
             return $result;
         }

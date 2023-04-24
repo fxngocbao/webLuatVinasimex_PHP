@@ -40,10 +40,7 @@ spl_autoload_register();
 
 </head>
 <style>
-    *{
-        padding: 0;
-        margin:0;
-    }
+
 </style>
 <body>
 <!-- Thanh header tao menu -->
