@@ -25,7 +25,6 @@
     <thead >
       <tr class="table-primary" align="center">
         <th>Mã Thành Viên</th>
-        <th>Ảnh</th>
         <th>Tên Thành Viên</th>
         <th>Chức Vụ</th>
         <th colspan="3">Actions</th>
@@ -42,7 +41,7 @@
         <td><?php echo $set['in4_name'];?></td>
         <td><?php echo $set['level_name'];?></td>
         <td><a href="index.php?action=information&act=information_detail&id=<?php echo $set['in4_id'];?>">Chi tiết</a></td>
-        <td><a href="index.php?action=level&act=editlevel&id=<?php echo $set['in4_id'];?>">Cập nhật</a></td>
+        <td><a href="index.php?action=information&act=editIn4&id=<?php echo $set['in4_id'];?>">Cập nhật</a></td>
         <td><a href="index.php?action=information&act=deleteIn4&id=<?php echo $set['in4_id'];?>">Xóa</a></td>
       </tr>
      <?php

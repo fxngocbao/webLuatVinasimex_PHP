@@ -23,7 +23,7 @@
           <a class="hasub menu_link a-ac nav-link active" style="color:#00578a;" href="index.php?action=home">TRANG CHỦ</a>
         </li>
         <li class="menu-item menu-item-toxonomy menu-item-cate">
-          <a href="#" class="hasub menu_link" >GIỚI THIỆU</a>
+          <a href="index.php?action=link&act=gioithieu" class="hasub menu_link" >GIỚI THIỆU</a>
           <section id="menu_gioithieu" class="vnsm-elm vnsm-row hide-col">
             <div class="mngt-elm vnsm-list">
               <div class="item item-1 current">

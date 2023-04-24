@@ -39,18 +39,10 @@
                                 <a class="dropdown-item" href="index.php?action=information">Quản Trị Thành Viên</a>
                             </div>
                         </li>
-                        <!-- Thống kê -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                Thống Kê
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Sản Phẩm bán được nhiều Nhất</a>
-                                <a class="dropdown-item" href="#">Sản Phẩm chưa được giao</a>
-                                <a class="dropdown-item" href="#">Sản phẩm bán ít nhất</a>
-                                <a class="dropdown-item" href="index.php?action=thongke">Thống kê</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quản Lý Giấy Phép</a>
                         </li>
+                       
                         <!-- Báo cáo -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">

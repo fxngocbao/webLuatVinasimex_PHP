@@ -22,13 +22,15 @@
             $result=$db->exec($sql);
             return $result;
         }
-        public function updateIn4($id,$in4_name,$level_id,$in4_phone,$in4_email,$image){
+        public function updateIn4($id,$in4_name,$level_name,$in4_phone,$in4_email,$skype,$image){
             $db=new connect();
+            $file_name=$_FILES['image']['name'];
             $sql="update information set
                 in4_name='$in4_name',
-                level_id=$level_id,
-                in4_phone=$in4_phone,
+                level_name='$level_name',
+                in4_phone='$in4_phone',
                 in4_email='$in4_email',
+                skype='$skype',
                 image='$image' 
                 where in4_id=$id";
             $result=$db->exec($sql);

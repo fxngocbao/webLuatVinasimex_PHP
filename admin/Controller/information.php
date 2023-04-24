@@ -11,7 +11,7 @@
             include "./View/information_detail.php";
             break;
         case 'addIn4':
-            include "./View/add&editIn4.php";
+            include "./View/AddIn4.php";
             break;
         case 'addIn4_action':
             $in4_name=$_POST['in4_name'];
@@ -29,6 +29,31 @@
             }else{
                 echo '<script>alert ("Thêm không thành công!!")</script>';
                 include './View/add&editIn4.php';
+            }
+            break;
+        case 'editIn4':
+            include "./View/editIn4.php";
+            break;
+        case 'editIn4_action':
+            if(isset($_GET['id'])){
+                $in4_id=$_GET['id'];
+                $in4_name=$_POST['in4_name'];
+                $level_name=$_POST['level_name'];
+                $in4_phone=$_POST['in4_phone'];
+                $in4_email=$_POST['in4_email'];
+                $skype=$_POST['skype'];
+                $image=$_FILES['image']['name'];
+                $in4=new information();
+                $checkedit=$in4->updateIn4($in4_id,$in4_name,$level_name,$in4_phone,$in4_email,$skype,$image);
+                if($checkedit!==false){
+                    uploadimage();
+                    echo '<script>alert ("Cập nhật thành công !!")</script>';
+                    include "./View/information.php";
+                }
+                else{
+                    echo '<script>alert ("Cập nhật không thành công !!")</script>';
+                    include "./View/editIn4.php";
+                }
             }
             break;
         case "deleteIn4":

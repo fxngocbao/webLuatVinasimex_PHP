@@ -4,25 +4,9 @@
     margin-top:30px;
   }
 </style>
-<?php
-  if(isset($_GET['act'])){
-    if($_GET['act']=='editIn4'){
-      $ac=1;
-    } 
-    if($_GET['act']=='addIn4'){
-      $ac=2;
-    }
-  }
-?>
-<!--hiển thị tiêu đề-->
-<?php
-if($ac==1){
-  echo '<div class="col-md-12 col-12 col-md-offset-4 title"><h3><b>CẬP NHẬT THÔNG TIN THÀNH VIÊN</b></h3></div>';
-}
-if($ac==2){
-  echo '<div class="col-md-12 col-12 col-md-offset-4 title"><h3><b>THÊM THÔNG TIN THÀNH VIÊN</b></h3></div>';
-}
-?>
+
+<div class="col-md-12 col-12 col-md-offset-4 title"><h3><b>CẬP NHẬT THÔNG TIN THÀNH VIÊN</b></h3></div>';
+
 <div class="row col-md-12 col-md-offset-4" >
   <?php
     if(isset($_GET['id'])){
@@ -40,15 +24,9 @@ if($ac==2){
   ?>
   <!--tạo thẻ form-->
   <?php
-  if($ac==1)
-  {
     echo '<form action="index.php?action=information&act=editIn4_action&id='.$id.'" method="post" enctype="multipart/form-data">';
-  }
-  if($ac==2){
-    echo '<form action="index.php?action=information&act=addIn4_action" method="post" enctype="multipart/form-data">';
-
-  }
   ?>
+    <a style="margin-top:20px;margin-bottom:20px;" href="index.php?action=information" type="button" class="btn btn-default">Back</a>
     <table class="table" style="border: 0px;">
 <tr>
   <td>Mã thành viên</td>
@@ -90,7 +68,7 @@ if($ac==2){
   <td>Hình</td>
   <td>
       
-      <label><img width="50px" height="50px" src=""></label>
+      <label><img width="50px" height="50px" src="Content/images/<?php if(isset($image)) echo $image;?>"></label>
       Chọn file để upload:
       <input type="file" name="image" id="fileupload">
    

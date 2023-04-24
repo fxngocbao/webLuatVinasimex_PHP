@@ -1,4 +1,10 @@
-
+<?php
+session_start();
+// include './Model/uploadimage.php';
+set_include_path(get_include_path().PATH_SEPARATOR.'Model/');
+spl_autoload_extensions('.php');
+spl_autoload_register();
+?>  
 <!DOCTYPE html>
 <html lang="en">
 

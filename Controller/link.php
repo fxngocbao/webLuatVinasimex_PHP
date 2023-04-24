@@ -10,5 +10,8 @@
         case 'doanhnghiep':
             include "./View/doanhnghiep_trangchu.php";
         break;
+        case 'gioithieu':
+            include "./View/gioithieu_trangchu.php";
+            break;
     }
 ?>
