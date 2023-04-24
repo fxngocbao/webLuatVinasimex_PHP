@@ -10,4 +10,22 @@
         hành án tại Việt Nam.
         <br>
       </p>
+
+       <!--Phần hiển thị thông tin database-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-4 mb-3 text-left">
+
+        <!--Thẻ hình ảnh-->
+        <div class="view overlay z-depth-1-half"></div>
+        <!--Thẻ tên-->
+        <h5 class="my-4 font-weight-bold" style="color: blue;"></h5>
+        <!--Thẻ chức vụ-->
+        <h6 class="my-4 font-weight-bold"></h6>
+        <!--Thẻ số điện thoại-->
+        <a href="" style="text-decoration: none;"></a>
+        <!--Thẻ email-->
+        <a href="" style="text-decoration: none;"></a>
+      </div>
+    </div>
   </div>

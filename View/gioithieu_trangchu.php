@@ -14,4 +14,22 @@
       Công ty luật Việt An hỗ trợ hàng ngàn lượt khách hàng về các thủ tục về thuế, dịch vụ kế toán thuế, quyết toán thuế, báo cáo tài chính hàng năm với sự am hiểu tinh tường về pháp luật, sắc bén về nghiệp vụ chuyên môn kế toán thực sự là chỗ dựa tin cậy cho các doanh nghiệp vốn Việt Nam và doanh nghiệp vốn đầu tư nước ngoài tại Việt Nam trong lĩnh vực kế toán thuế.
     </p>
     <img src="./Content/img/Viet-An-Law-GioiThieu.jpg" style="width: 100%;">
+
+    <!--Phần hiển thị thông tin database-->
+    <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-4 mb-3 text-left">
+
+              <!--Thẻ hình ảnh-->
+              <div class="view overlay z-depth-1-half"></div>
+              <!--Thẻ tên-->
+              <h5 class="my-4 font-weight-bold" style="color: blue;"></h5>
+              <!--Thẻ chức vụ-->
+              <h6 class="my-4 font-weight-bold"></h6>
+              <!--Thẻ số điện thoại-->
+              <a href="" style="text-decoration: none;"></a>
+              <!--Thẻ email-->
+              <a href="" style="text-decoration: none;"></a>
+          </div>
+      </div>
 </div>
