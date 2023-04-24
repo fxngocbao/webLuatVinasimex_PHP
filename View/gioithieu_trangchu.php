@@ -52,7 +52,11 @@ p{
 .p-title{
   margin-bottom:10px;
 }
+hr{
+  color:gray;
+}
 </style>
+<hr>
 <div class="gioithieu" style="background: rgb(251, 255, 251);">
       <h3 style="color: green; text-align: center;font-weight:400;">CÔNG TY LUẬT - ĐẠI DIỆN SỞ HỮU TRÍ TUỆ VIỆT AN</h3>
     <p class="p-title">
@@ -104,7 +108,8 @@ p{
                 <p>Email: <?php echo $set['in4_email']?></p>
               </div>  
           </div>
-    <?php
-      endwhile;
-    ?>
+        <?php
+          endwhile;
+        ?>
+    </div>
 </div>

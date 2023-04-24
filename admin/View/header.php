@@ -40,7 +40,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quản Lý Giấy Phép</a>
+                            <a class="nav-link" href="index.php?action=license&act=giayphep">Quản Lý Giấy Phép</a>
                         </li>
                        
                         <!-- Báo cáo -->

@@ -272,7 +272,7 @@
           </section>
         </li>
         <li class="menu-item menu-item-toxonomy menu-item-cate">
-          <a href="#" class="hasub menu_link a-ac">GIẤY PHÉP</a>
+          <a href="index.php?action=link&act=giayphep" class="hasub menu_link a-ac">GIẤY PHÉP</a>
           <section id="menu_gioithieu" class="vnsm-elm vnsm-row hide-col">
             <div class="mngt-elm vnsm-list">
               <div class="item item-1 current">

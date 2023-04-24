@@ -13,5 +13,7 @@
         case 'gioithieu':
             include "./View/gioithieu_trangchu.php";
             break;
+        case 'giayphep':
+            include "./View/giayphep_trangchu.php";
     }
 ?>

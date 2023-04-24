@@ -28,7 +28,7 @@
                 include './View/information.php';
             }else{
                 echo '<script>alert ("Thêm không thành công!!")</script>';
-                include './View/add&editIn4.php';
+                include './View/addIn4.php';
             }
             break;
         case 'editIn4':
